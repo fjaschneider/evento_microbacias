@@ -1,0 +1,195 @@
+---
+title: "Monitoramento em encostas cultivadas sob Plantio Direto"
+author: "Fabio José Andres Schneider"
+date: "`r format(Sys.Date(), format='%d de %B de %Y')`"
+encoding: "UTF-8"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    css: [xaringan-themer.css, custom.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(fig.align = "center",
+                      message = FALSE,
+                      warning = FALSE,
+                      echo = FALSE
+                      )
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#23395b",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+
+```{r xaringanExtra, echo=FALSE}
+#devtools::install_github("gadenbuie/xaringanExtra")
+xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+xaringanExtra::use_editable(expires = 1)
+xaringanExtra::use_extra_styles(
+  hover_code_line = TRUE,         #<<
+  mute_unhighlighted_code = FALSE  #<<
+)
+```
+
+.center[
+# Grupo GIPEHS
+]
+
+```{r, out.width='90%'}
+knitr::include_graphics("img/equipe.png")
+```
+
+
+---
+# Estudos desenvolvidos em Júlio de Castilhos
+
+
+- ### Contextualização da área de estudo;
+
+--
+
+- ### Dificuldades encontradas;
+
+--
+
+- ### Trabalhos publicados/ em andamento;
+
+
+---
+## Por quê essa escala?
+
+- Pouca informação na escala de encosta!
+
+--
+
+```{r}
+knitr::include_graphics("img/escala.png")
+```
+
+
+---
+## Contextualização da área de estudo
+
+```{r, out.width='80%'}
+knitr::include_graphics("img/jc_bacias.png")
+```
+
+---
+## Contextualização da área de estudo
+
+```{r}
+knitr::include_graphics("img/jc_macros.png")
+```
+
+- M1: Escarificada, baixa fitomassa;
+- M2: Não escarificada, baixa fitomassa;
+- M3: Escarificada, alta fitomassa;
+- M4: Não escarificada, alta fitomassa;
+- M5: Escarificada, média fitomassa;
+- M6: Não escarificada, média fitomassa;
+
+---
+# Estudos desenvolvidos em Júlio de Castilhos
+
+- Monitoramento da chuva, vazão e sedimentos:
+
+```{r, out.width='90%'}
+knitr::include_graphics("img/monitoramento.png")
+```
+
+
+---
+# Estudos desenvolvidos em Júlio de Castilhos
+
+- Cota e amostra.
+
+```{r}
+knitr::include_graphics("img/q_ssc.png")
+```
+
+---
+# Estudos desenvolvidos em Júlio de Castilhos
+
+- ### 2 teses;
+--
+
+- ### 7 dissertações + uma em andamento;
+--
+
+- ### 8 artigos publicados + 4 em andamento;
+  - #### CN;
+  - #### Ia;
+
+
+---
+# Derivação da curva número
+
+.pull-left[
+- Bacias de ordem zero:
+
+```{r}
+knitr::include_graphics("img/cn_bacias.png")
+```
+]
+
+
+.pull-right[
+- Macroparcelas:
+
+```{r}
+knitr::include_graphics("img/cn_macros.png")
+```
+]
+
+---
+# Infiltração aparente
+
+```{r, out.width="50%"}
+knitr::include_graphics("img/ia.png")
+```
+
+---
+# Dificuldades encontradas
+
+.pull-left[
+
+- ### Recursos;
+
+- ### Roubo/ vandalismo;
+
+- ### Distância;
+]
+
+.pull-right[
+
+```{r}
+knitr::include_graphics("img/rota.png")
+```
+]
+
+---
+class: center
+
+# Obrigado pelo atenção!
+
+email: fjas.schneider@gmail.com
+
+```{r}
+knitr::include_graphics("img/logo_gipehs.png")
+```
+
+
