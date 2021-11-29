@@ -122,12 +122,12 @@ knitr::include_graphics("img/q_ssc.png")
 ```
 
 ---
-# Estudos desenvolvidos em Júlio de Castilhos
+# Trabalhos publicados e em andamento
 
 - ### 2 teses;
 --
 
-- ### 7 dissertações + uma em andamento;
+- ### 7 dissertações + 1 em andamento;
 --
 
 - ### 8 artigos publicados + 4 em andamento;
