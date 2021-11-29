@@ -62,11 +62,11 @@ knitr::include_graphics("img/equipe.png")
 
 --
 
-- ### Dificuldades encontradas;
+- ### Trabalhos publicados/ em andamento;
 
 --
 
-- ### Trabalhos publicados/ em andamento;
+- ### Dificuldades encontradas;
 
 
 ---
