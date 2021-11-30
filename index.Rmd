@@ -70,7 +70,7 @@ knitr::include_graphics("img/equipe.png")
 
 
 ---
-## Por quê essa escala?
+## Por que essa escala?
 
 - Pouca informação na escala de encosta!
 
@@ -124,15 +124,19 @@ knitr::include_graphics("img/q_ssc.png")
 ---
 # Trabalhos publicados e em andamento
 
-- ### 2 teses;
+- Com o monitoramento foi possível compreender o comportamento hidrológica da encosta, com diferentes usos, no momento os estudos estão se desenvolvendo para modelar o escoamento superficial e erosivo para auxiliar na decisão de dimensionamento e alocação de práticas conservacionistas.
+
+  - 2 teses;
+
 --
 
-- ### 7 dissertações + 1 em andamento;
+  - 7 dissertações + 1 em andamento;
+
 --
 
-- ### 8 artigos publicados + 4 em andamento;
-  - #### CN;
-  - #### Ia;
+  - 8 artigos publicados + 4 em andamento;
+      - CN;
+      - Ia;
 
 
 ---
