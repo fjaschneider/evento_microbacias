@@ -135,36 +135,22 @@ knitr::include_graphics("img/q_ssc.png")
 --
 
   - 8 artigos publicados + 4 em andamento;
-      - CN;
-      - Ia;
 
 
 ---
-# Derivação da curva número
+# Trabalhos publicados
 
-.pull-left[
-- Bacias de ordem zero:
-
-```{r}
-knitr::include_graphics("img/cn_bacias.png")
+```{r, out.width="90%"}
+knitr::include_graphics("img/trabalhos.png")
 ```
-]
-
-
-.pull-right[
-- Macroparcelas:
-
-```{r}
-knitr::include_graphics("img/cn_macros.png")
-```
-]
 
 ---
-# Infiltração aparente
+# Trabalhos publicados
 
-```{r, out.width="50%"}
-knitr::include_graphics("img/ia.png")
+```{r, out.width="100%"}
+knitr::include_graphics("img/trabalhos2.png")
 ```
+
 
 ---
 # Dificuldades encontradas
